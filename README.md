@@ -5,10 +5,8 @@ apply plugin: 'com.android.application'
 apply plugin: 'fonts'
 
 fonts {
-
-    output = "/libs/"
+    output = "/src/main/assets/fonts/" //optionnal
     families {
-
         roboto { //download only Roboto-Light and Roboto-Regulat
             variants {
                 Light
@@ -16,7 +14,6 @@ fonts {
             }
         }
         roboto_condensed //download all Roboto-Condensed
-    
         raleway { //download only Raleway-Thin
             variants {
                 thin
