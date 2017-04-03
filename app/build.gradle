@@ -1,28 +1,4 @@
 apply plugin: 'com.android.application'
-apply plugin: 'fonts'
-
-fonts {
-    output = "/libs/"
-    families {
-        roboto { //download only Roboto-Light and Roboto-Regulat
-            variants {
-                Light
-                Regular
-                Bold
-            }
-        }
-        roboto_condensed //download all Roboto-Condensed
-        raleway { //download only Raleway-Thin, Raleway-Light and Raleway-Bold
-            variants {
-                thin
-                light
-                bold
-            }
-        }
-
-        aaaa //will not find the font
-    }
-}
 
 android {
     compileSdkVersion 21

@@ -14,6 +14,7 @@ dependencies {
 group = 'com.github.florent37'
 version = '1.0'
 
+/*
 apply plugin: 'maven'
 
 uploadArchives {
@@ -23,8 +24,8 @@ uploadArchives {
         }
     }
 }
+*/
 
-/*
 ext {
     bintrayRepo = 'maven'
     bintrayName = 'fonts'
@@ -53,4 +54,3 @@ ext {
 
 apply from: rootProject.file('gradle/install-v1.gradle')
 apply from: rootProject.file('gradle/bintray-java-v1.gradle')
-*/
