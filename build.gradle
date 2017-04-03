@@ -4,6 +4,9 @@ buildscript {
         maven {
             url  "http://dl.bintray.com/florent37/maven"
         }
+        maven {
+            url uri('libs')
+        }
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:2.3.0'

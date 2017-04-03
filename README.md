@@ -6,18 +6,22 @@ apply plugin: 'fonts'
 
 fonts {
 
-    roboto { //download only Roboto-Light and Roboto-Regulat
-        variants {
-            Light
-            Regular
-        }
-    }
-    roboto_condensed //download all Roboto-Condensed
+    output = "/libs/"
+    families {
 
-    raleway { //download only Raleway-Thin, Raleway-Light and Raleway-Bold
-        variants {
-            thin
-           
+        roboto { //download only Roboto-Light and Roboto-Regulat
+            variants {
+                Light
+                Regular
+            }
+        }
+        roboto_condensed //download all Roboto-Condensed
+    
+        raleway { //download only Raleway-Thin
+            variants {
+                thin
+               
+            }
         }
     }
 }
