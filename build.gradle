@@ -2,12 +2,15 @@ buildscript {
     repositories {
         jcenter()
         maven {
-            url uri('libs')
+            url  "http://dl.bintray.com/florent37/maven"
         }
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:2.3.0'
-        classpath "com.github.florent37.gradle:fonts:1.0"
+        classpath 'com.github.dcendents:android-maven-gradle-plugin:1.4.1'
+        classpath 'com.jfrog.bintray.gradle:gradle-bintray-plugin:1.0'
+
+        classpath "com.github.florent37:fonts:1.0"
     }
 }
 

@@ -11,15 +11,35 @@ dependencies {
     compile localGroovy()
 }
 
-group = 'com.github.florent37.gradle'
+group = 'com.github.florent37'
 version = '1.0'
 
-apply plugin: 'maven'
 
-uploadArchives {
-    repositories {
-        mavenDeployer {
-            repository(url: uri('../libs'))
-        }
-    }
+ext {
+    bintrayRepo = 'maven'
+    bintrayName = 'fonts'
+    orgName = 'florent37'
+
+    publishedGroupId = group
+    libraryName = 'Fonts'
+    artifact = 'fonts'
+
+    libraryDescription = ''
+
+    siteUrl = 'https://github.com/florent37/Fonts'
+    gitUrl = 'https://github.com/florent37/Fonts.git'
+
+    libraryVersion = version
+
+    developerId = 'florent37'
+    developerName = 'florent37'
+    developerEmail = 'champigny.florent@gmail.com'
+
+    licenseName = 'The Apache Software License, Version 2.0'
+    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+    allLicenses = ["Apache-2.0"]
 }
+
+
+apply from: rootProject.file('gradle/install-v1.gradle')
+apply from: rootProject.file('gradle/bintray-java-v1.gradle')

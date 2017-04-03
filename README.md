@@ -57,7 +57,7 @@ buildscript {
         jcenter()
     }
     dependencies {
-        classpath "com.github.florent37.gradle:fonts:1.0"
+        classpath "com.github.florent37:fonts:1.0"
     }
 }
 ```
