@@ -52,6 +52,7 @@ app/
 
 Import `fonts` in your root `build.gradle`
 
+[ ![Download](https://api.bintray.com/packages/florent37/maven/fonts/images/download.svg) ](https://bintray.com/florent37/maven/fonts/_latestVersion)
 ```java 
 buildscript {
     repositories {
