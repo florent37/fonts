@@ -106,6 +106,8 @@ Variants of roboto
 
 ```
 ./gradlew downloadSelectedFonts
+
+:app:downloadSelectedFonts
 Font roboto
 downloading Roboto-Bold : https://fonts.gstatic.com/s/roboto/v15/d-6IYplOFocCacKzxwXSOKCWcynf_cDxXwCLxiixG1c.ttf
 downloading Roboto-Light : https://fonts.gstatic.com/s/roboto/v15/Hgo13k-tfSpn0qi1SFdUfaCWcynf_cDxXwCLxiixG1c.ttf
