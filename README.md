@@ -1,5 +1,7 @@
 # Fonts, plugin for gradle
 
+[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-fonts-brightgreen.svg?style=flat)](https://android-arsenal.com/details/1/5514)
+
 ```java
 apply plugin: 'com.android.application'
 apply plugin: 'fonts'
