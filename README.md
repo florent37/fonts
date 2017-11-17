@@ -2,6 +2,10 @@
 
 [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-fonts-brightgreen.svg?style=flat)](https://android-arsenal.com/details/1/5514)
 
+<a target='_blank' rel='nofollow' href='https://app.codesponsor.io/link/iqkQGAc2EFNdScAzpwZr1Sdy/florent37/fonts'>
+  <img alt='Sponsor' width='888' height='68' src='https://app.codesponsor.io/embed/iqkQGAc2EFNdScAzpwZr1Sdy/florent37/fonts.svg' />
+</a>
+
 ```java
 apply plugin: 'com.android.application'
 apply plugin: 'fonts'
