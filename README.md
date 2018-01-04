@@ -2,9 +2,11 @@
 
 [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-fonts-brightgreen.svg?style=flat)](https://android-arsenal.com/details/1/5514)
 
-<a target='_blank' rel='nofollow' href='https://app.codesponsor.io/link/iqkQGAc2EFNdScAzpwZr1Sdy/florent37/fonts'>
-  <img alt='Sponsor' width='888' height='68' src='https://app.codesponsor.io/embed/iqkQGAc2EFNdScAzpwZr1Sdy/florent37/fonts.svg' />
+
+<a href="https://goo.gl/WXW8Dc">
+  <img alt="Android app on Google Play" src="https://developer.android.com/images/brand/en_app_rgb_wo_45.png" />
 </a>
+
 
 ```java
 apply plugin: 'com.android.application'
@@ -123,3 +125,8 @@ downloading Roboto-Light : https://fonts.gstatic.com/s/roboto/v15/Hgo13k-tfSpn0q
 downloading Roboto-Regular : https://fonts.gstatic.com/s/roboto/v15/zN7GBFwfMP4uA6AR0HCoLQ.ttf
 ...
 ```
+
+
+<a href="https://goo.gl/WXW8Dc">
+  <img alt="Android app on Google Play" src="https://developer.android.com/images/brand/en_app_rgb_wo_45.png" />
+</a>
